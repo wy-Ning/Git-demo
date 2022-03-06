@@ -1,0 +1,20 @@
+git init 仓库初始化
+git add 文件名  添加文件到仓库（git add . ）表示所有
+git commit -a -m "任意内容" -m后面输入的是本次提交的说明，可以输入任意内容。
+git status 查看仓库当前的状态，显示有变更的文件。输入一次就看一次状态
+git remote rm origin  删除
+连接gith： git remote add origin HHTPS /SSH/GITHub CLI
+修改地址： git remote set-url origin git@github.com:wy-Ning/Learning-project.git
+
+git push origin master上传送	
+	        分支
+git branch  查看当前分支
+git remote -v  查看项目远程地址
+git remote show origin  查看当前仓库基本信息
+git config user.name 获取当前名字
+git config –global user.name   "名字"   修改
+Connection was aborted, errno 10053:
+git config --global http.sslVerify "false" 表示解除https的ssl的凭证
+git config http.postBuffer 524288000  增加缓冲
+
+
