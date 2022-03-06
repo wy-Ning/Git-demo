@@ -17,4 +17,12 @@ Connection was aborted, errno 10053:
 git config --global http.sslVerify "false" 表示解除https的ssl的凭证
 git config http.postBuffer 524288000  增加缓冲
 
-
+----------------------------------------------
+git conflg -- global user.name 用户名 设置用户签名
+git conflg -- global user.email 邮箱设置用户签名
+git init 初始化本地库
+git status查看状态（每次add 都需看一次）
+git add 文件名  （./*代表所有）添加到暂存区
+git commit -m “任意名字” 提交到本地库
+git reflog            （git log）查看历史记录 
+git reset --hard 版本号版本穿梭
