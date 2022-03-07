@@ -26,3 +26,6 @@ git add 文件名  （./*代表所有）添加到暂存区
 git commit -m “任意名字” 提交到本地库
 git reflog            （git log）查看历史记录 
 git reset --hard 版本号版本穿梭
+
+
+笔记：印象笔记
